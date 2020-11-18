@@ -12,7 +12,7 @@
     </head>
     
     <body class="antialiased">
-        <Example />
+        <div id="example"></div>
     </body>
     
     <script src="/../js/app.js"></script>
