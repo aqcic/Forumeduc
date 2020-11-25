@@ -13,13 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/{path}', 'app');
+Route::view('/', 'app');
 
-Route::get('/about', function(){
-    return view('/pages/about');
-});
 
 Auth::routes();
 
