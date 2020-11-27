@@ -4,24 +4,19 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+require("./bootstrap");
 
 /**
  * Next, we will create a fresh React component instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-import Navbar from './components/Navbar';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Navbar } from "./components";
 
-import './../css/app.css';
+import "./../css/app.css";
 
 function App() {
     return (
@@ -43,10 +38,10 @@ function App() {
                 </Switch>
             </Router>
         </div>
-    )
+    );
 }
 
 export default App;
-if (document.getElementById('root')) {
-    ReactDOM.render(<App />, document.getElementById('root'));
+if (document.getElementById("root")) {
+    ReactDOM.render(<App />, document.getElementById("root"));
 }
