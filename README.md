@@ -51,8 +51,6 @@ npm install
 
 à venir...
 
-##
-
 ## License
 
-MIT
+Educational Community License, Version 2.0 (ECL-2.0)
