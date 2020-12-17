@@ -38,7 +38,7 @@
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search" style="padding: 0px;"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
-                        </form><span class="navbar-text"> <a class="login" href="#">Connexion</a></span><a class="btn btn-light action-button" role="button" href="#" style="font-family: 'Source Sans Pro', sans-serif;">Inscription</a>
+                        </form><span class="navbar-text"> <a class="login" href="{{ route('login') }}" >Connexion</a></span><a class="btn btn-light action-button" role="button" href="{{ route('register') }}" style="font-family: 'Source Sans Pro', sans-serif;">Inscription</a>
                     </div>
                 </div>
             </nav>
@@ -46,7 +46,7 @@
                 <div class="row" style="margin: 0px;margin-top: 0px;">
                     <div class="col-12 col-lg-6 col-xl-5 offset-xl-1" style="padding-right: 39px;">
                         <h1 style="font-family: 'Source Sans Pro', sans-serif;margin-top: 144px;margin-right: 0px;margin-bottom: 11px;">ForuméDuc;</h1>
-                        <p>Espace pour les étudiants de pôle universitaire<br>Akli Mohand Oulhadj à Bouira.<br></p><a class="btn btn-light btn-lg text-center action-button" role="button" href="#" style="text-align: center;">Connexion</a>
+                        <p>Espace pour les étudiants de pôle universitaire<br>Akli Mohand Oulhadj à Bouira.<br></p><a class="btn btn-light btn-lg text-center action-button" role="button" href="{{ route('login') }}" style="text-align: center;">Connexion</a>
                     </div>
                     <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
                         <div class="phone-mockup"><img class="device" src="{{asset('img/phone.svg')}}" style="width: 255px;">
