@@ -1,27 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://insag.edu.dz/wp-content/uploads/2018/09/blog-eLearning-templates.png" width="800" height="300" ></a></p>
+![cover](https://user-images.githubusercontent.com/15225447/110500177-38051000-80f9-11eb-87fc-67c421f222ce.png)
 
-## Sur ForumÉduc
+# ForumÉduc
 
-ForumÉduc est un projet open source où les contributeurs offrent leurs connaissances et leurs compétences informatique afin de créer un Forum pour les étudiant de pole universitaire de Bouira.
+## À Propos
 
-## Rejoindre le team
+ForumÉduc est un projet open source où les contributeurs offrent leurs connaissances et leurs compétences informatiques afin de créer un Forum pour les étudiants de pole universitaires de Bouïra.
 
-Vous n'avez pas besoin de rejoindre les gens mais peut etre les idée, alors si vous intéressez à nous donner un coup de main vous n'avez qu'à commencer écrire votre propre code.
+## Rejoignez nous
+
+Vous n'avez pas besoin de rejoindre les gens mais peut-être les idées, alors si vous intéressez à nous donner un coup de main vous n'avez qu'à commencer écrire votre propre code.
 
 ## Environnement de travail
 
-Comme vous voyez, nous venons de commencer notre premier pas sur Laravel, et de faire les premières configurations sur Git.
+Comme vous voyez, nous venons de commencer notre premier pas sur `Laravel`, et de faire les premières configurations sur Git.
 
 ## Installation
 
-afin de réaliser un bon travail, il est indispensable d'utiliser les memes technologies que chacun de nous alors :
+afin de réaliser un bon travail, il est indispensable d'utiliser les mêmes techniques que chacun de nous alors :
 
-    - Composer
-    - PHP 7.3
-    - Laravel 7.X
-    - React v16.*
-    - artisan
-    - Git
+```
+- Composer
+- PHP 7.3
+- Laravel 7.X
+- React v16.*
+- artisan
+- Git
+```
 
 ### Guide d'installation :
 
@@ -51,6 +55,6 @@ npm install
 
 à venir...
 
-## License
+## Licence
 
-Educational Community License, Version 2.0 (ECL-2.0)
+Educational Community Licence., Version 2.0 (ECL-2.0)
