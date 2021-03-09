@@ -16,7 +16,7 @@ Comme vous voyez, nous venons de commencer notre premier pas sur `Laravel`, et d
 
 ## Installation
 
-afin de réaliser un bon travail, il est indispensable d'utiliser les mêmes techniques que chacun de nous alors :
+afin de réaliser un bon travail, il est indispensable d'utiliser les mêmes technologies que chacun de nous alors :
 
 ```
 - Composer
